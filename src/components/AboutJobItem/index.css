@@ -1,0 +1,127 @@
+.job-details-view-container {
+  background-color: #000000;
+  flex-grow: 1;
+  padding: 40px;
+}
+.job-item-container {
+  list-style: none;
+  background-color: #272727;
+  border-radius: 10px;
+  padding: 15px;
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.img-title-container {
+  display: flex;
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+.title-rating-container {
+  margin-top: 0;
+}
+.company-logo {
+  width: 80px;
+  height: 80px;
+  margin-right: 10px;
+}
+.star-rating-container {
+  display: flex;
+  margin-top: 0;
+}
+.star-icon {
+  color: #fbbf24;
+  margin-left: 15px;
+}
+
+.location-package-container {
+  display: flex;
+  justify-content: space-between;
+}
+.location-job-type-container {
+  display: flex;
+  justify-content: space-between;
+  width: 40%;
+}
+.location-icon-location-container {
+  display: flex;
+}
+.location-icon {
+  color: #ffffff;
+}
+.location {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.link-item {
+  text-decoration: none;
+}
+.job-details-failure-view {
+  color: #ffffff;
+  text-align: center;
+}
+.job-details-loader {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+button {
+  color: #ffffff;
+  background-color: #6366f1;
+  cursor: pointer;
+  padding: 10px;
+}
+.ul-job-details-container {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+}
+.company-life-img-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.life-heading-para-container {
+  width: 70%;
+}
+.similar-jobs-details-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.description-visit-container {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+.similar-job-ul-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+@media screen and(max-width:767px) {
+  .job-details-view-container {
+    padding: 15px;
+  }
+  .similar-job-ul-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+  }
+  .company-life-img-container {
+    display: flex;
+    flex-direction: column;
+  }
+  .life-heading-para-container {
+    width: 100%;
+  }
+  .ul-job-details-container {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}

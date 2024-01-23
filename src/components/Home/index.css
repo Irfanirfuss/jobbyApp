@@ -1,0 +1,30 @@
+.jobs-btn {
+  background-color: #4f46e5;
+  border: none;
+  padding: 10px;
+  color: #ffffff;
+}
+h1 {
+  color: #ffffff;
+}
+
+p {
+  color: #ffffff;
+}
+.job-container {
+  background-image: url('https://assets.ccbp.in/frontend/react-js/home-sm-bg.png');
+  background-size: cover;
+  min-height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 30px;
+  padding-left: 50px;
+}
+@media screen and (min-width: 768px) {
+  .job-container {
+    background-image: url('https://assets.ccbp.in/frontend/react-js/home-lg-bg.png');
+  }
+}
